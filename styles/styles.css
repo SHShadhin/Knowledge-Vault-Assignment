@@ -57,7 +57,7 @@ nav .list {
   color: white;
 }
 .hero-banner h1 {
-  font-size: 60px;
+  font-size: 62px;
   font-weight: bold;
   margin: 16px 0;
 }
@@ -77,4 +77,57 @@ nav .list {
   color: #30b868;
   border: none;
   border-radius: 22px;
+}
+
+/* notes section styles */
+#note {
+  margin-top: 50px;
+}
+.note-content {
+  text-align: center;
+}
+.note-content h2 {
+  font-size: 40px;
+  color: #001931;
+  font-weight: 700;
+}
+.note-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  margin-top: 16px;
+  margin-bottom: 44px;
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+.card {
+  background-color: #ffffff;
+  width: 322px;
+  padding: 50px 24px;
+  text-align: center;
+  box-shadow: 0 0 4px 0 #00000060;
+  border-radius: 8px;
+}
+.card .circle {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #f95555;
+  border-radius: 50%;
+}
+.circle img {
+  width: 32px;
+  margin: 35px auto;
+}
+.card h3 {
+  font-size: 24px;
+  color: #001931;
+  margin: 16px 0;
+}
+.card p {
+  font-size: 14px;
+  color: #627382;
 }
