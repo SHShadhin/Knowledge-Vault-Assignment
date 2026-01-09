@@ -49,6 +49,8 @@ nav .list {
 #banner-img {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.275)),
     url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-banner {
   padding-top: 80px;
@@ -166,3 +168,72 @@ nav .list {
   color: #001931;
   font-weight: 500;
 }
+.brain-container li > i {
+  color: #30b868;
+  margin-right: 10px;
+}
+
+/* ready section styles */
+#ready {
+  margin-bottom: 120px;
+}
+.ready-content {
+  background-color: #f7f6f2;
+  padding: 80px 0;
+  text-align: center;
+  border-radius: 12px;
+}
+.ready-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.ready-content p {
+  color: #627382;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+.ready-content .ready-list {
+  display: flex;
+  width: 400px;
+  margin: 15px auto;
+  gap: 30px;
+  text-align: center;
+  color: #627382;
+  font-weight: 300;
+}
+
+/* footer styles */
+#footer {
+  background-color: rgb(22, 30, 52);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  color: white;
+}
+.footer-container .footer-logo {
+  margin-bottom: 80px;
+}
+.footer-container .social-link h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.horizontal {
+  color: #001931;
+  margin-bottom: 30px;
+}
+.small {
+  display: block;
+  font-size: 16px;
+  max-width: 800px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+               
